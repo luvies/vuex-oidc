@@ -23,6 +23,7 @@ export interface VuexOidcStoreSettings {
   publicRoutePaths?: string[];
   routeBase?: string;
   routerMode?: string;
+  isPublicRoute?: (arg?: any) => (boolean);
 }
 
 export interface VuexOidcStoreListeners {
