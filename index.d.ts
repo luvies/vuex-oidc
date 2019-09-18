@@ -20,6 +20,9 @@ export interface VuexOidcClientSettings extends OidcClientSettings {
 export interface VuexOidcStoreSettings {
   namespaced?: boolean;
   dispatchEventsOnWindow?: boolean;
+  publicRoutePaths?: string[];
+  routeBase?: string;
+  routerMode?: string;
 }
 
 export interface VuexOidcStoreListeners {
